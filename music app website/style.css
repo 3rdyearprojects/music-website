@@ -1,0 +1,54 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+#app {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #E91E63;
+}
+
+#songList div {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#songList div:hover {
+  background-color: #E91E63;
+  color: #ffffff;
+}
+
+.song-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+audio {
+  width: 100%;
+  margin-top: 20px;
+  outline: none;
+}
+
+/* Utility classes for text */
+.text-white {
+  color: #ffffff;
+}
+    
